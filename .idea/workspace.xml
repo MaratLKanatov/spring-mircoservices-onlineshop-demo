@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="722d2b62-4cf9-4c65-8fda-3b3e83e966ac" name="Changes" comment="Закоммитил .gitignore в проекте и модуле eureka-server" />
+    <list default="true" id="722d2b62-4cf9-4c65-8fda-3b3e83e966ac" name="Changes" comment="Закоммитил настройки idea">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/kz/onlineshop/kanatovm/micro/demo/eurekaclient/EurekaClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/kz/onlineshop/kanatovm/micro/demo/eurekaclient/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/test/java/kz/onlineshop/kanatovm/micro/demo/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,22 +30,44 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/eureka-client">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/eureka-server">
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2YDtrkbNZD7B9yN1vYC67FhPmx8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,6 +85,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "azul-17",
@@ -57,6 +96,7 @@
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.22643678",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,7 +107,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.onlineshop.kanatovm.micro.demo.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kz.onlineshop.kanatovm.micro.demo.eurekaserver.EurekaServerApplication" />
@@ -85,6 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700072179347</updated>
       <workItem from="1700072180348" duration="4176000" />
+      <workItem from="1700121677629" duration="2230000" />
     </task>
     <task id="LOCAL-00001" summary="Пустой проект">
       <option name="closed" value="true" />
@@ -142,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700076375102</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Закоммитил настройки idea">
+      <option name="closed" value="true" />
+      <created>1700121845154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700121845154</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +224,11 @@
     <MESSAGE value="Удалил .gitignore в проекте и модуле eureka-server" />
     <MESSAGE value="Просто включить сервер еурека до базового уровня работы" />
     <MESSAGE value="Закоммитил .gitignore в проекте и модуле eureka-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Закоммитил .gitignore в проекте и модуле eureka-server" />
+    <MESSAGE value="Закоммитил настройки idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Закоммитил настройки idea" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
