@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="722d2b62-4cf9-4c65-8fda-3b3e83e966ac" name="Changes" comment="Закоммитил .gitignore в проекте и модуле eureka-server" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/eureka-server">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2YDtrkbNZD7B9yN1vYC67FhPmx8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "azul-17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.22643678",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.onlineshop.kanatovm.micro.demo.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="722d2b62-4cf9-4c65-8fda-3b3e83e966ac" name="Changes" comment="" />
+      <created>1700072179347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700072179347</updated>
+      <workItem from="1700072180348" duration="4176000" />
+    </task>
+    <task id="LOCAL-00001" summary="Пустой проект">
+      <option name="closed" value="true" />
+      <created>1700072556322</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700072556322</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавил пустой модуль eureka-server">
+      <option name="closed" value="true" />
+      <created>1700074582263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700074582263</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Удалил .gitignore с Общего проекта(внешний модуль) и модуля eureka-server">
+      <option name="closed" value="true" />
+      <created>1700074677577</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700074677577</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Закоммитил все файлы проекта и модуля eureka-server">
+      <option name="closed" value="true" />
+      <created>1700074723891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700074723891</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Закоммитил .gitignore в проекте и модуле eureka-server">
+      <option name="closed" value="true" />
+      <created>1700076140576</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700076140576</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Просто включить сервер еурека до базового уровня работы">
+      <option name="closed" value="true" />
+      <created>1700076279070</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700076279070</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Закоммитил .gitignore в проекте и модуле eureka-server">
+      <option name="closed" value="true" />
+      <created>1700076375102</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700076375102</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Пустой проект" />
+    <MESSAGE value="Добавил пустой модуль eureka-server" />
+    <MESSAGE value="Удалил .gitignore с Общего проекта(внешний модуль) и модуля eureka-server" />
+    <MESSAGE value="Закоммитил все файлы проекта и модуля eureka-server" />
+    <MESSAGE value="Удалил .gitignore в проекте и модуле eureka-server" />
+    <MESSAGE value="Просто включить сервер еурека до базового уровня работы" />
+    <MESSAGE value="Закоммитил .gitignore в проекте и модуле eureka-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Закоммитил .gitignore в проекте и модуле eureka-server" />
+  </component>
+</project>
