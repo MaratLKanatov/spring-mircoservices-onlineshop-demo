@@ -1,0 +1,43 @@
+version: '1'
+services:
+  eureka-server:
+    container_name: eureka-server
+    build:
+      context: eureka-server
+      dockerfile: Dockerfile
+    image: eureka-server:latest
+    env_file:
+      - docker-compose.env
+    ports:
+      - 8761:8761
+    networks:
+      - spring-cloud-network
+  eureka-client:
+    container_name: eureka-client
+    build:
+      context: eureka-client
+      dockerfile: Dockerfile
+    image: eureka-client:latest
+    env_file:
+      - docker-compose.env
+    networks:
+      - spring-cloud-network
+    depends_on:
+      - eureka-server
+  api-gateway:
+    container_name: api-gateway
+    build:
+      context: api-gateway
+      dockerfile: Dockerfile
+    image: api-gateway:latest
+    env_file:
+      - docker-compose.env
+    ports:
+      - 8081:8081
+    networks:
+      - spring-cloud-network
+    depends_on:
+      - eureka-client
+networks:
+  spring-cloud-network:
+    driver: bridge

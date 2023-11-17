@@ -4,22 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="722d2b62-4cf9-4c65-8fda-3b3e83e966ac" name="Changes" comment="Закоммитил настройки idea">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/kz/onlineshop/kanatovm/micro/demo/eurekaclient/EurekaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/kz/onlineshop/kanatovm/micro/demo/eurekaclient/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/test/java/kz/onlineshop/kanatovm/micro/demo/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
+    <list default="true" id="722d2b62-4cf9-4c65-8fda-3b3e83e966ac" name="Changes" comment="remove auto added tests for modules: eureka-server, eureka-client">
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/kz/onlineshop/kanatovm/micro/demo/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/kz/onlineshop/kanatovm/micro/demo/eurekaclient/EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/kz/onlineshop/kanatovm/micro/demo/eurekaclient/EurekaClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/gradlew" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +46,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/api-gateway">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eureka-client">
@@ -40,6 +61,18 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/api-gateway">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/eureka-server">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/eureka-client">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -53,11 +86,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Изменил file-encoding на UTF-8 и починил application.properties. и добавил базовый модуль eureka-client" />
+        <option name="rewordedMessage" value="Изменил file-encoding на UTF-8 и починил application.properties. и добавил базовый модуль eureka-client" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="312977e9a29c146d38449d82e2a7be7bff7e10f1" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -87,19 +131,31 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "azul-17",
+    "last_opened_file_path": "D:/Work Station/java/selfeducationprojects/spring-mircoservices-onlineshop-demo/eureka-server",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22643678",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "project.structure.side.proportion": "0.36229023",
+    "settings.editor.selected.configurable": "database.other",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work Station\java\selfeducationprojects\spring-mircoservices-onlineshop-demo\eureka-server" />
+      <recent name="D:\Work Station\java\selfeducationprojects\spring-mircoservices-onlineshop-demo\api-gateway" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -107,7 +163,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.onlineshop.kanatovm.micro.demo.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kz.onlineshop.kanatovm.micro.demo.eurekaclient.EurekaClientApplication" />
@@ -122,6 +185,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,6 +227,12 @@
       <updated>1700072179347</updated>
       <workItem from="1700072180348" duration="4176000" />
       <workItem from="1700121677629" duration="2230000" />
+      <workItem from="1700126441169" duration="4720000" />
+      <workItem from="1700141351577" duration="2887000" />
+      <workItem from="1700147214317" duration="3766000" />
+      <workItem from="1700151149765" duration="7034000" />
+      <workItem from="1700211818831" duration="1241000" />
+      <workItem from="1700215688161" duration="9285000" />
     </task>
     <task id="LOCAL-00001" summary="Пустой проект">
       <option name="closed" value="true" />
@@ -198,7 +298,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700121845154</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=".">
+      <option name="closed" value="true" />
+      <created>1700125408035</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700125408035</updated>
+    </task>
+    <task id="LOCAL-00010" summary="remove auto added tests for modules: eureka-server, eureka-client">
+      <option name="closed" value="true" />
+      <created>1700141713903</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700141713903</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +341,20 @@
     <MESSAGE value="Просто включить сервер еурека до базового уровня работы" />
     <MESSAGE value="Закоммитил .gitignore в проекте и модуле eureka-server" />
     <MESSAGE value="Закоммитил настройки idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Закоммитил настройки idea" />
+    <MESSAGE value="." />
+    <MESSAGE value="remove auto added tests for modules: eureka-server, eureka-client" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove auto added tests for modules: eureka-server, eureka-client" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.jdks/azul-17.0.8.1/lib/src.zip!/java.base/java/net/InetAddress.java</url>
+          <line>988</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

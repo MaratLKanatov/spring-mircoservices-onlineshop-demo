@@ -29,6 +29,10 @@ dependencyManagement {
     }
 }
 
+tasks.getByName<Jar>("jar") {
+    enabled = false
+}
+
 tasks.withType<Test> {
     useJUnitPlatform()
 }

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.6" />
+    <bytecodeTargetLevel target="1.6">
+      <module name="spring-mircoservices-onlineshop-api-gateway" target="17" />
+      <module name="spring-mircoservices-onlineshop-api-gateway.main" target="17" />
+      <module name="spring-mircoservices-onlineshop-api-gateway.test" target="17" />
+      <module name="spring-mircoservices-onlineshop-eureka-client" target="17" />
+      <module name="spring-mircoservices-onlineshop-eureka-client.main" target="17" />
+      <module name="spring-mircoservices-onlineshop-eureka-client.test" target="17" />
+      <module name="spring-mircoservices-onlineshop-eureka-server" target="17" />
+      <module name="spring-mircoservices-onlineshop-eureka-server.main" target="17" />
+      <module name="spring-mircoservices-onlineshop-eureka-server.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
