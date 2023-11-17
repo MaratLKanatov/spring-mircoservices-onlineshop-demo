@@ -1,6 +1,6 @@
 version: '1'
 services:
-  eureka-server:
+  spring-mircoservices-onlineshop-eureka-server:
     container_name: eureka-server
     build:
       context: eureka-server
@@ -12,7 +12,13 @@ services:
       - 8761:8761
     networks:
       - spring-cloud-network
-  eureka-client:
+    healthcheck:
+      test: "curl --fail --silent http://localhost:8761/actuator/health/readiness | grep UP || exit 1"
+      interval: 2s
+      timeout: 3s
+      retries: 5
+      start_period: 2s
+  spring-mircoservices-onlineshop-eureka-client:
     container_name: eureka-client
     build:
       context: eureka-client
@@ -23,8 +29,9 @@ services:
     networks:
       - spring-cloud-network
     depends_on:
-      - eureka-server
-  api-gateway:
+      spring-mircoservices-onlineshop-eureka-server:
+        condition: service_healthy
+  spring-mircoservices-onlineshop-api-gateway:
     container_name: api-gateway
     build:
       context: api-gateway
@@ -37,7 +44,7 @@ services:
     networks:
       - spring-cloud-network
     depends_on:
-      - eureka-client
+      - spring-mircoservices-onlineshop-eureka-client
 networks:
   spring-cloud-network:
     driver: bridge
