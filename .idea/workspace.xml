@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="722d2b62-4cf9-4c65-8fda-3b3e83e966ac" name="Changes" comment="try to short building time by creating separate layer for caching dependencies. AND add healthcheck to docker-compose">
+    <list default="true" id="722d2b62-4cf9-4c65-8fda-3b3e83e966ac" name="Changes" comment="make unique instance-id for each eureka-client instance, AND change port for api-gateway microservice">
+      <change afterPath="$PROJECT_DIR$/github-config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/src/main/java/kz/onlineshop/kanatovm/micro/demo/githubconfigserver/GithubConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/src/test/java/kz/onlineshop/kanatovm/micro/demo/githubconfigserver/GithubConfigServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/kz/onlineshop/kanatovm/micro/demo/eurekaclient/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/kz/onlineshop/kanatovm/micro/demo/eurekaclient/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +35,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eureka-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/github-config-server">
       <ProjectState />
     </projectState>
   </component>
@@ -193,6 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GithubConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="github-config-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.onlineshop.kanatovm.micro.demo.githubconfigserver.GithubConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -218,10 +237,11 @@
     <list>
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       <item itemvalue="Gradle.eureka-client [clean build]" />
+      <item itemvalue="Spring Boot.GithubConfigServerApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication_inst3" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.EurekaClientApplication_inst1" />
       <item itemvalue="Spring Boot.EurekaClientApplication_inst2" />
-      <item itemvalue="Spring Boot.EurekaClientApplication_inst3" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
     <recent_temporary>
@@ -247,7 +267,11 @@
       <workItem from="1700151149765" duration="7034000" />
       <workItem from="1700211818831" duration="1241000" />
       <workItem from="1700215688161" duration="15537000" />
-      <workItem from="1700241365658" duration="1251000" />
+      <workItem from="1700241365658" duration="2082000" />
+      <workItem from="1700250514172" duration="549000" />
+      <workItem from="1700251131391" duration="744000" />
+      <workItem from="1700290312659" duration="2319000" />
+      <workItem from="1700295607831" duration="3591000" />
     </task>
     <task id="LOCAL-00001" summary="Пустой проект">
       <option name="closed" value="true" />
@@ -345,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700232660347</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="make unique instance-id for each eureka-client instance, AND change port for api-gateway microservice">
+      <option name="closed" value="true" />
+      <created>1700242790823</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700242790823</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +408,8 @@
     <MESSAGE value="remove auto added tests for modules: eureka-server, eureka-client" />
     <MESSAGE value="configure docker compose for project, and add api-gateway module to project" />
     <MESSAGE value="try to short building time by creating separate layer for caching dependencies. AND add healthcheck to docker-compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to short building time by creating separate layer for caching dependencies. AND add healthcheck to docker-compose" />
+    <MESSAGE value="make unique instance-id for each eureka-client instance, AND change port for api-gateway microservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="make unique instance-id for each eureka-client instance, AND change port for api-gateway microservice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
